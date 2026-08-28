@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({ title, description, buttonText, imageUrl }) => {
+const Card = ({ title, description, imageUrl }) => {
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg m-4">
       <img className="w-full" src={imageUrl} alt={title} />
